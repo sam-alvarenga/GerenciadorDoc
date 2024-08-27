@@ -44,7 +44,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_FILES['image'])) {
             $result = mysqli_query($conn, $sql);
             while ($row = mysqli_fetch_assoc($result)) {
                 $file_path = $row['file_path'];
-                echo '<img src="'.$file_path.'" alt="imagem" style="max-width: 400px; margin: 10px;">';
+                echo '<img src="'.$file_path.'" alt="imagem" style="max-width: 250px; margin: 10px;">';
             }
         ?>
     </div>

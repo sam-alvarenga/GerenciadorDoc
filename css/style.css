@@ -1,8 +1,9 @@
 /* Define o estilo para o corpo da página */
+
 body {
     font-family: Arial, sans-serif;
-    background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(86,9,121,1) 35%, rgba(0,0,0,1) 100%);
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(86, 9, 121, 1) 35%, rgba(0, 0, 0, 1) 100%);
     margin: 0;
     padding: 0;
     display: flex;
@@ -12,7 +13,9 @@ body {
     height: 100vh;
 }
 
+
 /*------ Estilo do contêiner principal ---------*/
+
 .container {
     background: #560979;
     padding: 20px;
@@ -22,26 +25,34 @@ body {
     width: 300px;
 }
 
+
 /*------- Estilo do formulário--------- */
+
 form {
     margin: 0;
     padding: 0;
     color: #fff;
 }
 
+
 /* ----------Estilo dos campos de entrada do formulário---------- */
+
 input[type="email"],
 input[type="text"],
 input[type="password"] {
-    width: calc(100% - 22px); /* Ajusta a largura para caber no contêiner com margem */
+    width: calc(100% - 22px);
+    /* Ajusta a largura para caber no contêiner com margem */
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    box-sizing: border-box; /* Inclui o padding e border no cálculo da largura */
+    box-sizing: border-box;
+    /* Inclui o padding e border no cálculo da largura */
 }
 
+
 /* ----Estilo do botão de envio------ */
+
 input[type="submit"] {
     background-color: #007bff;
     color: white;
@@ -50,16 +61,18 @@ input[type="submit"] {
     border-radius: 4px;
     cursor: pointer;
     font-size: 16px;
-    width: 100%;
+    width: 50%;
 }
 
 input[type="submit"]:hover {
     background-color: #0056b3;
 }
 
+
 /*--------- Estilo do link de cadastro------ */
-.cadastro-form{
-        margin: 20px;
+
+.cadastro-form {
+    margin: 20px;
     padding: 30px;
     color: #fff;
     border-radius: 8px;
@@ -80,9 +93,11 @@ input[type="submit"]:hover {
 }
 
 
-
 /* -------Estilo do campo de upload de imagem------- */
+
+
 /* Estilo dos cabeçalhos */
+
 h1 {
     color: #ffffff;
     margin: 20px 0;
@@ -91,14 +106,17 @@ h1 {
 
 input[type="file"] {
     display: block;
-    margin: 0 auto 10px; /* Centraliza o campo e adiciona margem inferior */
+    margin: 0 auto 10px;
+    /* Centraliza o campo e adiciona margem inferior */
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
     color: #ccc;
 }
 
+
 /*-------- Estilo do botão de envio---------- */
+
 button {
     background-color: #007bff;
     color: white;
@@ -115,17 +133,22 @@ button:hover {
     background-color: #0056b3;
 }
 
+
 /* --------Estilo do campo de upload de imagem ----------*/
+
 input[type="file"] {
     display: block;
-    margin: 0 auto 10px; /* Centraliza o campo e adiciona margem inferior */
+    margin: 0 auto 10px;
+    /* Centraliza o campo e adiciona margem inferior */
     padding: 10px;
     border: 3px dashed #ccc;
     border-radius: 4px;
     color: #ccc;
 }
 
+
 /*--------- Estilo da galeria de imagens--------- */
+
 .gallery {
     display: flex;
     flex-wrap: wrap;
@@ -133,7 +156,9 @@ input[type="file"] {
     margin-top: 45px;
 }
 
+
 /* ---------Estilo das imagens na galeria------------- */
+
 .gallery img {
     max-width: 200px;
     height: auto;
@@ -141,12 +166,9 @@ input[type="file"] {
     border: 2px solid #ddd;
     border-radius: 4px;
     box-shadow: 0 4px 85px rgb(153, 0, 255);
-    
 }
 
-.gallery img:hover{
+.gallery img:hover {
     transform: scale(1.1);
     transition: 0.5s;
 }
-
-
